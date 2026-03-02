@@ -568,7 +568,12 @@ export default function Home() {
         if (typeof window !== 'undefined') {
           localStorage.setItem(SUBMISSION_KEY, content);
           localStorage.setItem(SUBMITTED_KEY, 'true');
-          if (POST_SUBMISSION_REDIRECT_URL) window.location.href = POST_SUBMISSION_REDIRECT_URL;
+          if (POST_SUBMISSION_REDIRECT_URL) {
+            const url = prolificIdRef.current
+              ? `${POST_SUBMISSION_REDIRECT_URL}?PROLIFIC_PID=${encodeURIComponent(prolificIdRef.current)}`
+              : POST_SUBMISSION_REDIRECT_URL;
+            window.location.href = url;
+          }
         }
       } else if (res.status === 503) {
         setSubmissionError('Server storage unavailable. Saved locally only.');
@@ -576,7 +581,12 @@ export default function Home() {
         if (typeof window !== 'undefined') {
           localStorage.setItem(SUBMISSION_KEY, content);
           localStorage.setItem(SUBMITTED_KEY, 'true');
-          if (POST_SUBMISSION_REDIRECT_URL) window.location.href = POST_SUBMISSION_REDIRECT_URL;
+          if (POST_SUBMISSION_REDIRECT_URL) {
+            const url = prolificIdRef.current
+              ? `${POST_SUBMISSION_REDIRECT_URL}?PROLIFIC_PID=${encodeURIComponent(prolificIdRef.current)}`
+              : POST_SUBMISSION_REDIRECT_URL;
+            window.location.href = url;
+          }
         }
       } else {
         setSubmissionError(data.error || 'Failed to save submission. Please try again.');
