@@ -55,14 +55,10 @@ const AI_GREETING =
   `;
   
 
-const SYSTEM_INTERVENTION = `• When interacting with the AI, use your own context to guide the AI toward ideas that are clearly different from what has already been suggested.
-1. Share something specific from your own experience with food waste at home. For example, a situation where you threw away food, what triggered it, or what made it harder or easier to reduce waste.
-2. Introduce one new angle that has not been discussed yet. 
-3. You may also borrow a strategy from another area of life, such as meal prep, shopping lists, or storage habits, and adapt it to reducing food waste at home.`;
+const SYSTEM_INTERVENTION = ``;
 
-const COLLAB_TIPS = `Task Reminder:
-Generate creative and practical ideas to reduce food waste at home.
-Work with the AI to explore ideas and submit one final creative and practical solution.`;
+const COLLAB_TIPS = `• Generate creative and practical ideas to reduce food waste at home.
+• Work with the AI to explore ideas and submit one final creative and practical solution.`;
 
 const NUM_SUBMISSION_IDEAS = 1;
 /** Set to your Qualtrics (or other) survey URL to redirect after submission. Leave empty for no redirect. */
