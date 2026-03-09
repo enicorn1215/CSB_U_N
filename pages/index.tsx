@@ -33,9 +33,9 @@ const AI_GREETING =
   
   To start, you need to ask the user to provide one initial idea: ${AI_GREETING}. Do not provide any idea until the user has shared their first idea.
   
-  After users have provided their initial idea, don't active invite users input and follow these rules:
+During the conversation, don't actively invite users' input and follow these rules:
   1. Don't actively ask if the user wants another idea, but if the user asks for an idea, provide exactly one idea only.
-  2. Don't actively ask if the user wants to refine exisiting ideas, but if the user asks to refine, improve, elaborate, adapt, or revise an idea, respond only within that focal idea.
+  2. Don't actively ask if the user wants to refine existing ideas, but if the user asks to refine, improve, elaborate, adapt, or revise an idea, respond only within that focal idea.
     `;
   
 
