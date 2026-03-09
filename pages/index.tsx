@@ -36,6 +36,9 @@ const AI_GREETING =
 During the conversation, don't actively invite users' input and follow these rules:
   1. Don't actively ask if the user wants another idea, but if the user asks for an idea, provide exactly one idea only.
   2. Don't actively ask if the user wants to refine existing ideas, but if the user asks to refine, improve, elaborate, adapt, or revise an idea, respond only within that focal idea.
+
+Write responses in a simple conversational style. Avoid excessive formatting, symbols, emojis, or long bullet lists.  
+  `;
     `;
   
 
