@@ -39,9 +39,7 @@ During the conversation, don't actively invite users' input and follow these rul
 
 Write responses in a simple conversational style. Avoid excessive formatting, symbols, emojis, or long bullet lists.  
   `;
-    `;
   
-
 const SYSTEM_INTERVENTION = ``;
 
 const COLLAB_TIPS = `• Generate creative and practical ideas to reduce food waste at home.
